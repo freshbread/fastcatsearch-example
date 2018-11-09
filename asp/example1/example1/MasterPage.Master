@@ -1,0 +1,30 @@
+﻿<!--
+ * 날짜 : 2015-07-20
+ * 작성자 : 패스트캣 사원 전제현
+ * 내용 : 로그분석기 연동 ASP.NET(C#) 예제
+-->
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="FastcatSearch_ASP_001.Site1" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>예제</title>
+    <link type="text/css" href="css/bootstrap.css" rel="stylesheet" />
+    <link type="text/css" href="css/bootstrap-theme.css" rel="stylesheet" />
+    <link type="text/css" href="css/myCustomStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-fixed-top">
+        <div class="container">
+            <asp:ContentPlaceHolder ID="Content1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    </nav>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
